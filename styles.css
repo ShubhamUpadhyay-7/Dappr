@@ -202,9 +202,11 @@ nav>img {
 
 .icons {
     position: sticky;
-    left: 94vw;
-    width: 8vw;
-    top: 87vh;
+    display: flex;
+    flex-direction: column;
+    top: 10vh;
+    float: right;
+    margin-top: 22vh;
 }
 
 .icons1,
